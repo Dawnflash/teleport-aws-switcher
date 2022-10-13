@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Roles</title>
+  <script src="action.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h3>Prod</h3>
+  <p>
+    <button class="link" data-app="aws"
+      data-role="arn:aws:iam::656273365228:role/administrator-read-only">administrator-read-only
+    </button>
+  </p>
+  <p>
+    <button class="link privileged" data-app="aws"
+      data-role="arn:aws:iam::656273365228:role/administrator-teleport">administrator-teleport
+    </button>
+  </p>
+  <h3>Staging</h3>
+  <p>
+    <button class="link" data-app="aws-staging" data-role="arn:aws:iam::793677888466:role/administrator">administrator
+    </button>
+  </p>
+  <h3>Ops</h3>
+  <p>
+    <button class="link" data-app="aws-ops"
+      data-role="arn:aws:iam::843222783279:role/administrator-safe">administrator-safe
+    </button>
+  </p>
+  <p>
+    <button class="link privileged" data-app="aws-ops"
+      data-role="arn:aws:iam::843222783279:role/administrator-teleport">administrator-teleport
+    </button>
+  </p>
+</body>
+
+</html>

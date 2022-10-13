@@ -1,0 +1,14 @@
+{
+  "name": "Teleport switcher",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "cookies"
+  ],
+  "host_permissions": [
+    "*://*.aws.amazon.com/"
+  ],
+  "action": {
+    "default_popup": "main.html"
+  }
+}

@@ -1,0 +1,16 @@
+.privileged {
+  background: orange;
+}
+
+button {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+body {
+  white-space: nowrap;
+}
+
+p {
+  margin: 5px;
+}
